@@ -1,9 +1,3 @@
-
-![image](https://github.com/wangbojing/NtyTcp/blob/master/doc/icon.jpg)
-
-
-具体详情还可以移步 http://www.ntytcp.com
-
 ## netmap install
 ```
 $ git clone https://github.com/wangbojing/netmap.git
@@ -69,4 +63,11 @@ $ ./bin/nty_example_epoll_rb_server
 if you discover bug to sending email to 1989wangbojing@163.com. 
 
 also, want to be an NtyTcper, so you can sent email to 1989wangbojing@163.com .
+
+## External ARP
+
+Put a file named 'arp.conf' in the same folder with your executable file.
+
+Each line consists of <IP> <MAC>
+
 
